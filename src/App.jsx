@@ -9,7 +9,11 @@ function App() {
 
     {/* <h1>i am alawoddin {20 + 20}</h1> */}
 
-    <h1>the value is {2 * 3}</h1>
+    {/* <h1>the value is {2 * 3}</h1> */}
+
+    <p>
+      calc the two number {20 + 20}
+    </p>
     </>
   )
 }

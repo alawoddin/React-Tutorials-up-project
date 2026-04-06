@@ -1,9 +1,20 @@
 /* eslint-disable react-hooks/static-components */
 import React from 'react';
+import Footer from './Footer';
+import Test from './Test';
 
 const Header = () => {
 
-    const name = "alawoddin";
+    const name = "developer";
+
+    const x = 10
+
+        const title = "demo";
+        const age = 20;
+    
+        const job = "developer";
+
+
 
     function Greet() {
         return (
@@ -18,7 +29,19 @@ const Header = () => {
         )
     }
     return (
+
             <>
+
+
+
+
+            <Test title={title} age={age} job={job} />
+
+        <Footer name={name} age={x}  />
+
+
+
+
 
             <Car />
             <Greet />

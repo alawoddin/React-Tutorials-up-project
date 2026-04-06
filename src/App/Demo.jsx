@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Components/Header';
+import Navbar from '../Components/Navbar';
 
 const Demo = () => {
 
@@ -9,11 +10,22 @@ const Demo = () => {
 
     const x = 10;
 
+    const title = "demo";
+    const age = 20;
+    const job = "developer";
+
 
     return (
         <div>
 
-            <Header />
+
+            <Navbar title={title} age={age} job={job} />
+
+            {/* <Header /> */}
+
+
+
+            
 
             <h1 className='myname' style={{ color: "blue" }}>hello {name}</h1>
 

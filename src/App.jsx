@@ -1,4 +1,5 @@
 
+import { useState } from 'react';
 import './App.css'
 import Demo from './App/Demo'
 
@@ -10,12 +11,40 @@ function App() {
   // const active = false;
 
   // const x = 10;
- 
+  
+  const isLogin = false;
+
+  const [name , setName] = useState("");
+
+  const [fname , setFname] = useState("");
 
   return (
     <>
 
-    <Demo />
+    <input type="text" onChange={(e) => setName(e.target.value) } name="" id="" />
+
+    {name && <h1>your name is : {name}</h1>}
+
+
+    <input type="text" onClick={(e) => setFname(e.target.value)} />
+
+     <h1>your fname is {fname}</h1>
+
+
+    
+    {isLogin ? (
+      <h1>welcome to the class</h1>
+    ) : (
+      <h1>i am sorry your login give error </h1>
+    )}
+
+      {/* {isLogin ? (
+        <h1>welcome to the class</h1>
+      ) : (
+        <h1> i am sorry you can not login</h1>
+      )} */}
+
+    {/* <Demo /> */}
 
 
     {/* <h1>hello world</h1> */}

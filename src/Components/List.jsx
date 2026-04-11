@@ -1,5 +1,7 @@
 import React from 'react';
 
+import data from "../data"
+
 const List = () => {
 
     const developers = ['web' , 'full stack', 'laravel']
@@ -19,14 +21,21 @@ const List = () => {
                 {/* {developers.map((dev) => <li>my name is {dev}</li>)} */}
                 {/* {developers} */}
                 {/* {developers.map((dev) => <li>your name {dev}</li>)} */}
-                {developers.map((dev) => <li>i am a {dev}</li>)}
+                {developers.map((dev) => <li>title  {dev} </li>)}
             </ul>
 
-            
+            {data.map((item) => <li>my name is {item.title} - job is {item.job}</li>)}
+
+            {/* <ul className='ps-3'>
+                {data.map((all) => <li key={all.id}>check this {all.name}
+                     - {all.job}</li>)}
+            </ul> */}
 
             <ul>
                 {cars.map((car) => <li key={car.id}>i am a {car.brand}</li>)}
             </ul>
+
+
             
         </div>
     );

@@ -24,7 +24,21 @@ const List = () => {
                 {developers.map((dev) => <li>title  {dev} </li>)}
             </ul>
 
-            {data.map((item) => <li>my name is {item.title} - job is {item.job}</li>)}
+            <div className="card" style={{ width: "18rem" }}>
+  <div className="card-body">
+    <h5 className="card-title">Users</h5>
+
+    <ul>
+      {data.map((item) => (
+        <li key={item.id}>
+          my name is {item.title} - my job is {item.job}
+        </li>
+      ))}
+    </ul>
+
+  </div>
+</div>
+
 
             {/* <ul className='ps-3'>
                 {data.map((all) => <li key={all.id}>check this {all.name}

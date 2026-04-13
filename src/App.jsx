@@ -3,6 +3,7 @@
 import './App.css'
 import Demo from './App/Demo'
 import List from './Components/List'
+import Form from './Components/Event/Form';
 
 
 function App() {
@@ -22,7 +23,9 @@ function App() {
   return (
     <>
 
-    <List />
+    {/* <List /> */}
+
+    <Form />
 
 
 {/* 

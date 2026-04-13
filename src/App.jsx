@@ -6,6 +6,7 @@ import List from './Components/List'
 import Form from './Components/Event/Form';
 import Textarea from './Components/Event/Textarea';
 import Task from './Components/Task/Task';
+import Opation from './Components/Event/Opation';
 
 
 function App() {
@@ -31,7 +32,10 @@ function App() {
 
     {/* <Textarea /> */}
 
-    <Task />
+    {/* <Task /> */}
+
+    <Opation />
+
 
 
 {/* 

@@ -13,6 +13,7 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Main from './Components/State/Main';
 import Effect from './Components/State/Effect';
 import Content from './Components/State/Content';
+import UseRef from './Components/State/UseRef';
 
 
 function App() {
@@ -49,7 +50,8 @@ function Contact() {
     {/* <Main /> */}
     {/* <Effect /> */}
 
-    <Content />
+    {/* <Content /> */}
+    <UseRef />
 
     {/* <BrowserRouter>
     <nav>

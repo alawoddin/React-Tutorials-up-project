@@ -51,8 +51,9 @@ function Contact() {
     {/* <Effect /> */}
 
     {/* <Content /> */}
-    <UseRef />
+    {/* <UseRef /> */}
 
+    <useReducer />
     {/* <BrowserRouter>
     <nav>
       <Link to='/'>Home</Link>

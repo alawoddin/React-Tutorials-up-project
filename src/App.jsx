@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/static-components */
 
 // import { useState } from 'react';
 import './App.css';
@@ -51,9 +50,9 @@ function Contact() {
     {/* <Effect /> */}
 
     {/* <Content /> */}
-    {/* <UseRef /> */}
+    <UseRef />
 
-    <useReducer />
+    {/* <useReducer /> */}
     {/* <BrowserRouter>
     <nav>
       <Link to='/'>Home</Link>
